@@ -10,9 +10,18 @@ namespace Caleb_26471_Lab2
 {
     public partial class BicycleForm : Form
     {
-        public BicycleForm()
+        private readonly Form _choose;
+        private readonly Form _login;
+
+        public BicycleForm(Form choose, Form login)
         {
             InitializeComponent();
+            _choose = choose;
+            _login = login;
+        }
+
+        private void BicycleForm_Load(object sender, EventArgs e)
+        {
         }
     }
 }

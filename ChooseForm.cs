@@ -12,5 +12,19 @@
         private void ChooseForm_Load(object sender, EventArgs e)
         {
         }
+
+        private void btnMushroom_Click(object sender, EventArgs e)
+        {
+            MushroomForm mushroom = new MushroomForm(this, _loginForm);
+            mushroom.Show();
+            this.Hide();
+        }
+
+        private void btnBicycle_Click(object sender, EventArgs e)
+        {
+            BicycleForm bicycle = new BicycleForm(this, _loginForm);
+            bicycle.Show();
+            this.Hide();
+        }
     }
 }

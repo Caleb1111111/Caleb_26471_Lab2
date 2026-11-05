@@ -10,9 +10,20 @@ namespace Caleb_26471_Lab2
 {
     public partial class MushroomForm : Form
     {
-        public MushroomForm()
+        private readonly Form _choose;
+        private readonly Form _login;
+
+        public MushroomForm(Form choose, Form login)
         {
             InitializeComponent();
+            _choose = choose;
+            _login = login;
         }
+
+        private void MushroomForm_Load(object sender, EventArgs e)
+        {
+        }
+
+        
     }
 }
