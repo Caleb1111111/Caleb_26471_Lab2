@@ -1,4 +1,4 @@
-﻿namespace Caleb_26471_Lab2
+namespace Caleb_26471_Lab2
 {
     partial class ChooseForm
     {

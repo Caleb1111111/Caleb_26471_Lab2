@@ -9,14 +9,13 @@ namespace Caleb_26471_Lab2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtUsername.Text) || string.IsNullOrWhiteSpace(txtPassword.Text))
+            if (txtUsername.Text == "" || txtPassword.Text == "")
             {
-                MessageBox.Show("Username and password cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Username and password cannot be empty.");
                 return;
             }
 
@@ -24,7 +23,5 @@ namespace Caleb_26471_Lab2
             chooseForm.Show();
             this.Hide();
         }
-
-        
     }
 }
