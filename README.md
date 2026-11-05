@@ -1,7 +1,7 @@
 # Caleb_26471_Lab2
 
 A Windows Forms desktop application built with C# and .NET 10.
-Lab 2 — converts the console programs from Lab 1 into a proper desktop app with four screens.
+Lab 2  converts the console programs from Lab 1 into a proper desktop app with four screens.
 
 ---
 
@@ -68,6 +68,4 @@ Caleb_26471_Lab2/
 
 ---
 
-## Screenshots
 
-_Coming soon_
