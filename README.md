@@ -62,7 +62,6 @@ Caleb_26471_Lab2/
 ├── Program.cs
 ├── Caleb_26471_Lab2.csproj
 ├── Caleb_26471_Lab2.slnx
-├── images/               screenshots
 ├── .gitignore
 └── README.md
 ```
