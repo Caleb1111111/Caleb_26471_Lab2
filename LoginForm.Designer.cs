@@ -38,12 +38,13 @@
             // 
             // btnLogin
             // 
+            btnLogin.BackColor = Color.FromArgb(128, 255, 128);
             btnLogin.Location = new Point(306, 434);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(97, 40);
             btnLogin.TabIndex = 0;
             btnLogin.Text = "Login";
-            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.UseVisualStyleBackColor = false;
             btnLogin.Click += btnLogin_Click;
             // 
             // lblUsername
